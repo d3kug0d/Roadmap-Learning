@@ -1,0 +1,104 @@
+/* Pallete of colors 
+
+    Black: #191E29
+    Blue:  #132D46
+    Green: #01C38D
+    Grey:  #696E79
+    White: #FFFFFF
+
+*/
+
+*{
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #132D46;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.div-divider{
+    padding: 16px ;
+}
+
+h3{
+    color: #FFFFFF;
+}
+
+.topnav{
+    overflow:hidden;
+    background-color: #191E29;
+    padding: 10px;
+    margin: 0;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav .search-bar{
+    float:right;
+    
+}
+
+form{
+    display: flex;
+    align-items: center;
+    background-color: #696E79;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+}
+
+input{
+    all:unset;
+    font:15px system-ui;
+    color: #FFFFFF;
+    height: 100%;
+    width:100%;
+    padding: 6px 9px;
+}
+
+::placeholder{
+    color: white;
+}
+.small-image{
+    height: 350px;
+    border-radius: 14px ;
+}
+
+.column{
+    float: left;
+    padding:30px;
+}
+
+.card{
+    border-radius: 50px;
+    width: 18%;
+    height: 10%;
+    padding: 20px 0;
+    margin: 50px;
+    text-align: center;
+    background-color:#696E79;
+}
+
+.section{
+    display: flex;
+    gap: 40px;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
